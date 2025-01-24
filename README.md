@@ -1,5 +1,5 @@
 # logger_component
-a class that can be composed with others to add logging functionality with spdlog
+a class that can be composed with others to add logging functionality with spdlog, the reason this exists is to simply abstract away working with spdlog and creating a new logger, that way when you're working on something and you want logging you simply use this rather than having to think about the logging implementation to save time.
 
 ## usage
 If you want to add a logger to a particular subsystem, you must first make some spdlog sinks:
